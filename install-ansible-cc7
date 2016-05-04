@@ -1,0 +1,11 @@
+    6  adduser test
+    7  passwd test
+    8  cd /home/test/
+    9  mkdir playbooks
+   10  chown test:test playbooks/
+   11  su test
+   12  yum repolist
+   13  yum update
+   14  yum install epel-release
+   15  yum install ansible
+   16  ansible --version
